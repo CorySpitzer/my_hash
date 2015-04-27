@@ -17,7 +17,7 @@ class MyHash
   end
 
   define_method(:has_key?) do |key|
-    true
+    @keys.include?(key)
   end
 
 end
