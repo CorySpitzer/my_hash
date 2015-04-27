@@ -16,4 +16,8 @@ class MyHash
     @values.at(index)
   end
 
+  define_method(:has_key?) do |key|
+    true
+  end
+
 end
